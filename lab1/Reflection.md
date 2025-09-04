@@ -1,11 +1,26 @@
-Through this exercise, I gained a better understanding of how lists in Python can be manipulated in a way that mimics arrays and stacks. By using .pop() to remove values from one list and .append() to add them into another, I was able to reverse the order of elements step by step. This helped me clearly see how the Last In, First Out (LIFO) principle works in practice.
+a. Documentation
+The main concepts I applied in this exercise were:
 
-Writing the reverse_array() function also showed me the importance of wrapping logic inside reusable blocks of code instead of repeating the same steps. I also came across the -= operator, which made the loop shorter and easier to read compared to writing index = index - 1.
+List operations in Python such as .append() and .pop().
 
-Overall, this task strengthened my understanding of:
+Using lists to simulate stack behavior (Last In, First Out — LIFO).
+
+Creating a reusable function (reverse_array()) instead of repeating logic.
+
+Applying shorthand operators like -= to make loops shorter and more readable.
+
+b. Reflection
+What I learned:
+Through this exercise, I learned how Python lists can be used to mimic both arrays and stacks. By applying .pop() to remove items and .append() to insert them into another list, I was able to reverse the order of elements step by step and observe how the LIFO principle works in practice. Writing the reverse_array() function also reinforced the importance of wrapping logic into functions to keep code organized and reusable.
+
+Challenges faced (and how I overcame them):
+One challenge I faced was understanding the use of the -= operator. At first, it seemed confusing compared to writing index = index - 1. However, after experimenting with it, I realized it makes the code cleaner and easier to read. I also had to carefully check how .pop() works, since it removes elements from the original list, which helped me understand how stacks process data. 
+
+Overall
+This task strengthened my understanding of:
 
 How lists can act as stacks in Python.
 
-The difference between arrays in general programming and Python’s flexible list structure.
+The difference between arrays in general programming and Python’s more flexible list structure.
 
-The importance of functions in making code neat and reusable.
+The importance of writing functions to make code neat, modular, and reusable.
